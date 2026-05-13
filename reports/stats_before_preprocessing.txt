@@ -1,0 +1,26 @@
+BÁO CÁO TỔNG KẾT TASK 15: THU THẬP VÀ TINH LỌC DỮ LIỆU
+1. Trạng thái trước khi lọc (Raw Dataset)
+Giai đoạn này tập trung vào việc thu thập toàn diện từ ISIC Archive để đảm bảo không bỏ sót dữ liệu quan trọng.
+•	Tổng số lượng tệp tin: 552,573 ảnh.
+•	Dung lượng lưu trữ: ~60 GB.
+•	Đặc điểm dữ liệu:
+o	Bao gồm nhiều loại hình ảnh: Soi da (Dermoscopic), lâm sàng (Clinical), và ảnh chụp toàn thân (TBP tile).
+o	Mất cân bằng nghiêm trọng: Lớp Lành tính (Benign) chiếm ~91% (502,646 ảnh), lớp Ác tính (Malignant) chỉ chiếm ~5%.
+o	Hệ thống gặp hiện tượng giật lag khi xử lý Metadata do số lượng dòng quá lớn (>550k dòng).
+2. Quy trình tinh lọc dữ liệu (Data Refinement)
+Để tối ưu hóa hiệu suất cho mô hình Hybrid (CNN + ViT) và phù hợp với hạ tầng phần cứng (Laptop), chúng ta đã thực hiện các bước sau:
+•	Lọc theo chất lượng chuyên môn: Chỉ giữ lại ảnh thuộc loại Dermoscopic (124,752 ảnh) để đồng nhất đặc trưng cấu trúc da.
+•	Loại bỏ nhiễu: Loại bỏ các nhãn "Indeterminate" (Không xác định) để đảm bảo độ tin cậy cho nhãn huấn luyện.
+•	Cân bằng dữ liệu (Sampling): * Giữ lại toàn bộ ảnh Ác tính (Malignant) hiện có trong nhóm Dermoscopic.
+o	Lấy mẫu ngẫu nhiên (Random Sampling) 30,000 ảnh Lành tính (Benign) để tạo sự cân bằng lớp.
+3. Trạng thái sau khi lọc và dọn dẹp (Cleaned Dataset)
+Đây là bộ dữ liệu "tinh hoa" sẽ được dùng chính thức cho các Task tiếp theo.
+•	Tổng số lượng ảnh thực tế: 51,620 ảnh.
+•	Dung lượng lưu trữ ước tính: ~17.8 GB (Giảm gần 10 lần so với ban đầu).
+•	Độ chính xác: Khớp hoàn toàn giữa tệp Metadata (metadata_refined.csv) và dữ liệu vật lý trong folder.
+📊 Bảng phân bổ nhãn cuối cùng:
+Nhãn (Label)	Số lượng	Tỷ lệ phần trăm
+Benign (Lành tính)	30,000	58.12%
+Malignant (Ác tính)	21,620	41.88%
+Tổng cộng	51,620	100%
+
