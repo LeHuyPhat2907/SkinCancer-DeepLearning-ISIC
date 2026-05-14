@@ -26,6 +26,9 @@ Hardware: NVIDIA CMP 40HX (10GB VRAM).
 Framework: PyTorch 2.x, Torchvision, Albumentations.
 Dataset: ISIC 2024 (Skin Lesion Analysis) - ~51k images.
 
+#############################################################
+Link: Dataset: https://drive.google.com/drive/folders/1s2-MRwm4CM1GmB-KpIQRvzUiIzBUnSRI?usp=sharing
+
 
 
 
