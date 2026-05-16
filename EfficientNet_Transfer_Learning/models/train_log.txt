@@ -1,0 +1,652 @@
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+[DATASET LOAD] idx=3000 | file=ISIC_0066675.jpg
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+ATASET LOAD] idx=36000 | file=ISIC_7638885.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[DATASET LOAD] idx=0 | file=ISIC_0003222.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 1
+[DATASET LOAD] idx=15000 | file=ISIC_4922874.jpg
+[DATASET LOAD] idx=24000 | file=ISIC_0001867.jpg
+[DATASET LOAD] idx=27000 | file=ISIC_9895881.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 1
+[DATASET LOAD] idx=33000 | file=ISIC_0026167.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+ATASET LOAD] idx=0 | file=ISIC_0028078.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 1
+[DATASET LOAD] idx=0 | file=ISIC_0003222.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 1
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 2
+[DATASET LOAD] idx=9000 | file=ISIC_9457506.jpg
+[DATASET LOAD] idx=0 | file=ISIC_0028078.jpg
+jpg
+[DATASET LOAD] idx=15000 | file=ISIC_4922874.jpg
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 2
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+[DATASET LOAD] idx=18000 | file=ISIC_5725541.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 2
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 3
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 3
+[DATASET LOAD] idx=9000 | file=ISIC_9457506.jpg
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DATASET LOAD] idx=3000 | file=ISIC_0066675.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 3
+[DATASET LOAD] idx=27000 | file=ISIC_9895881.jpg
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+[DATASET LOAD] idx=24000 | file=ISIC_0001867.jpg
+[DATASET LOAD] idx=36000 | file=ISIC_7638885.jpg
+[DATASET LOAD] idx=33000 | file=ISIC_0026167.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 3
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 4
+[DATASET LOAD] idx=33000 | file=ISIC_0026167.jpg
+[DATASET LOAD] idx=18000 | file=ISIC_5725541.jpg
+[DATASET LOAD] idx=27000 | file=ISIC_9895881.jpg
+[DATASET LOAD] idx=24000 | file=ISIC_0001867.jpg
+[DATASET LOAD] idx=3000 | file=ISIC_0066675.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 4
+[DATASET LOAD] idx=15000 | file=ISIC_4922874.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 4
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 4
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 4
+[DATASET LOAD] idx=0 | file=ISIC_0003222.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 5
+[DATASET LOAD] idx=18000 | file=ISIC_5725541.jpg
+[DATASET LOAD] idx=15000 | file=ISIC_4922874.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+ASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 5
+[DATASET LOAD] idx=33000 | file=ISIC_0026167.jpg
+[DATASET LOAD] idx=3000 | file=ISIC_0066675.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 5
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 5
+[DATASET LOAD] idx=0 | file=ISIC_0003222.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 6
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+[DATASET LOAD] idx=18000 | file=ISIC_5725541.jpg
+[DATASET LOAD] idx=15000 | file=ISIC_4922874.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 6
+[DATASET LOAD] idx=9000 | file=ISIC_9457506.jpg
+[DATASET LOAD] idx=0 | file=ISIC_0028078.jpg
+[DATASET LOAD] idx=24000 | file=ISIC_0001867.jpg
+g
+[DATASET LOAD] idx=36000 | file=ISIC_7638885.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DATASET LOAD] idx=27000 | file=ISIC_9895881.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 6
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 6
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 7
+[DATASET LOAD] idx=18000 | file=ISIC_5725541.jpg
+[DATASET LOAD] idx=24000 | file=ISIC_0001867.jpg
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DATASET LOAD] idx=0 | file=ISIC_0028078.jpg
+[DATASET LOAD] idx=36000 | file=ISIC_7638885.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 7
+[DATASET LOAD] idx=0 | file=ISIC_0003222.jpg
+g
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=0 | file=ISIC_0028078.jpg
+[DATASET LOAD] idx=3000 | file=ISIC_0066675.jpg
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=24000 | file=ISIC_0001867.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_9457506.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+[DATASET LOAD] idx=18000 | file=ISIC_5725541.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=15000 | file=ISIC_4922874.jpg
+[DATASET LOAD] idx=36000 | file=ISIC_7638885.jpg
+[DATASET LOAD] idx=27000 | file=ISIC_9895881.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=0 | file=ISIC_0003222.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=3000 | file=ISIC_0016133.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=27000 | file=ISIC_9895881.jpg
+[DATASET LOAD] idx=12000 | file=ISIC_0054558.jpg
+[DATASET LOAD] idx=0 | file=ISIC_0028078.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_9457506.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=21000 | file=ISIC_0001452.jpg
+[DATASET LOAD] idx=3000 | file=ISIC_0066675.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=15000 | file=ISIC_4922874.jpg
+[DATASET LOAD] idx=6000 | file=ISIC_0027074.jpg
+[DATASET LOAD] idx=30000 | file=ISIC_4676341.jpg
+[DATASET LOAD] idx=36000 | file=ISIC_7638885.jpg
+[DATASET LOAD] idx=24000 | file=ISIC_0001867.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+[CHECKPOINT] Loading...
+[CHECKPOINT] Resume from epoch 8
+[DATASET LOAD] idx=0 | file=ISIC_0003222.jpg
+g
+[DATASET LOAD] idx=6000 | file=ISIC_0012144.jpg
+[DATASET LOAD] idx=9000 | file=ISIC_1442961.jpg
+[DEVICE] Using: cpu
+[DATASET] Loaded 36134 samples from data/train.csv
+[DATASET] Loaded 10324 samples from data/val.csv
+[MODEL] Initializing EfficientNet...
+[MODEL] Loading EfficientNet-B0...
+[MODEL] Model ready with custom classifier
+
+🔥 ===== EPOCH 1/10 START =====
+[TRAIN] Batch 0/1130 | Loss=2.0590
+[TRAIN] Batch 100/1130 | Loss=1.2711
+[TRAIN] Batch 200/1130 | Loss=1.4747
+[TRAIN] Batch 300/1130 | Loss=1.0901
+[TRAIN] Batch 400/1130 | Loss=1.2056
+[TRAIN] Batch 500/1130 | Loss=1.1370
+[TRAIN] Batch 600/1130 | Loss=0.9920
+[TRAIN] Batch 700/1130 | Loss=1.2210
+[TRAIN] Batch 800/1130 | Loss=1.2682
+[TRAIN] Batch 900/1130 | Loss=1.1745
+[TRAIN] Batch 1000/1130 | Loss=1.2154
+[TRAIN] Batch 1100/1130 | Loss=1.2255
+
+📊 Epoch 1/10 DONE
+Train Loss: 1.2945
+Train Acc : 54.10%
+Val Loss  : 1.0985
+Val Acc   : 62.38%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 2/10 START =====
+[TRAIN] Batch 0/1130 | Loss=0.8210
+[TRAIN] Batch 100/1130 | Loss=1.4210
+[TRAIN] Batch 200/1130 | Loss=1.1444
+[TRAIN] Batch 300/1130 | Loss=1.2372
+[TRAIN] Batch 400/1130 | Loss=1.1603
+[TRAIN] Batch 500/1130 | Loss=1.1991
+[TRAIN] Batch 600/1130 | Loss=1.3615
+[TRAIN] Batch 700/1130 | Loss=1.2074
+[TRAIN] Batch 800/1130 | Loss=1.5735
+[TRAIN] Batch 900/1130 | Loss=1.3182
+[TRAIN] Batch 1000/1130 | Loss=1.0111
+[TRAIN] Batch 1100/1130 | Loss=1.0954
+
+📊 Epoch 2/10 DONE
+Train Loss: 1.1530
+Train Acc : 58.77%
+Val Loss  : 1.0431
+Val Acc   : 64.25%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 3/10 START =====
+[TRAIN] Batch 0/1130 | Loss=0.7411
+[TRAIN] Batch 100/1130 | Loss=0.9721
+[TRAIN] Batch 200/1130 | Loss=1.0998
+[TRAIN] Batch 300/1130 | Loss=1.0324
+[TRAIN] Batch 400/1130 | Loss=1.4019
+[TRAIN] Batch 500/1130 | Loss=1.2370
+[TRAIN] Batch 600/1130 | Loss=1.2597
+[TRAIN] Batch 700/1130 | Loss=0.8899
+[TRAIN] Batch 800/1130 | Loss=0.8727
+[TRAIN] Batch 900/1130 | Loss=1.2991
+[TRAIN] Batch 1000/1130 | Loss=0.9942
+[TRAIN] Batch 1100/1130 | Loss=1.1493
+
+📊 Epoch 3/10 DONE
+Train Loss: 1.1151
+Train Acc : 59.57%
+Val Loss  : 1.0077
+Val Acc   : 64.93%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 4/10 START =====
+[TRAIN] Batch 0/1130 | Loss=1.1606
+[TRAIN] Batch 100/1130 | Loss=1.1789
+[TRAIN] Batch 200/1130 | Loss=1.0713
+[TRAIN] Batch 300/1130 | Loss=0.9833
+[TRAIN] Batch 400/1130 | Loss=1.1118
+[TRAIN] Batch 500/1130 | Loss=0.7718
+[TRAIN] Batch 600/1130 | Loss=0.8176
+[TRAIN] Batch 700/1130 | Loss=1.0366
+[TRAIN] Batch 800/1130 | Loss=1.4012
+[TRAIN] Batch 900/1130 | Loss=1.0427
+[TRAIN] Batch 1000/1130 | Loss=1.2264
+[TRAIN] Batch 1100/1130 | Loss=1.2907
+
+📊 Epoch 4/10 DONE
+Train Loss: 1.0977
+Train Acc : 59.98%
+Val Loss  : 0.9958
+Val Acc   : 65.46%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 5/10 START =====
+[TRAIN] Batch 0/1130 | Loss=1.1315
+[TRAIN] Batch 100/1130 | Loss=0.7113
+[TRAIN] Batch 200/1130 | Loss=1.0087
+[TRAIN] Batch 300/1130 | Loss=1.0658
+[TRAIN] Batch 400/1130 | Loss=1.2938
+[TRAIN] Batch 500/1130 | Loss=0.9215
+[TRAIN] Batch 600/1130 | Loss=1.3981
+[TRAIN] Batch 700/1130 | Loss=0.9729
+[TRAIN] Batch 800/1130 | Loss=0.8610
+[TRAIN] Batch 900/1130 | Loss=0.9973
+[TRAIN] Batch 1000/1130 | Loss=0.9306
+[TRAIN] Batch 1100/1130 | Loss=1.0833
+
+📊 Epoch 5/10 DONE
+Train Loss: 1.0781
+Train Acc : 60.83%
+Val Loss  : 0.9792
+Val Acc   : 65.85%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 6/10 START =====
+[TRAIN] Batch 0/1130 | Loss=1.4419
+[TRAIN] Batch 100/1130 | Loss=0.9011
+[TRAIN] Batch 200/1130 | Loss=1.0531
+[TRAIN] Batch 300/1130 | Loss=1.4865
+[TRAIN] Batch 400/1130 | Loss=1.1173
+[TRAIN] Batch 500/1130 | Loss=1.2771
+[TRAIN] Batch 600/1130 | Loss=1.3602
+[TRAIN] Batch 700/1130 | Loss=0.7711
+[TRAIN] Batch 800/1130 | Loss=0.8533
+[TRAIN] Batch 900/1130 | Loss=1.1524
+[TRAIN] Batch 1000/1130 | Loss=1.0196
+[TRAIN] Batch 1100/1130 | Loss=0.8986
+
+📊 Epoch 6/10 DONE
+Train Loss: 1.0665
+Train Acc : 61.04%
+Val Loss  : 0.9617
+Val Acc   : 66.47%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 7/10 START =====
+[TRAIN] Batch 0/1130 | Loss=1.2003
+[TRAIN] Batch 100/1130 | Loss=1.1245
+[TRAIN] Batch 200/1130 | Loss=1.1693
+[TRAIN] Batch 300/1130 | Loss=0.9715
+[TRAIN] Batch 400/1130 | Loss=0.9822
+[TRAIN] Batch 500/1130 | Loss=1.0425
+[TRAIN] Batch 600/1130 | Loss=0.9765
+[TRAIN] Batch 700/1130 | Loss=1.3435
+[TRAIN] Batch 800/1130 | Loss=0.8980
+[TRAIN] Batch 900/1130 | Loss=0.7709
+[TRAIN] Batch 1000/1130 | Loss=0.9260
+[TRAIN] Batch 1100/1130 | Loss=1.0503
+
+📊 Epoch 7/10 DONE
+Train Loss: 1.0508
+Train Acc : 61.61%
+Val Loss  : 0.9484
+Val Acc   : 66.63%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 8/10 START =====
+[TRAIN] Batch 0/1130 | Loss=1.1922
+[TRAIN] Batch 100/1130 | Loss=1.0744
+[TRAIN] Batch 200/1130 | Loss=0.9403
+[TRAIN] Batch 300/1130 | Loss=0.9784
+[TRAIN] Batch 400/1130 | Loss=1.0275
+[TRAIN] Batch 500/1130 | Loss=1.3564
+[TRAIN] Batch 600/1130 | Loss=1.0648
+[TRAIN] Batch 700/1130 | Loss=1.0691
+[TRAIN] Batch 800/1130 | Loss=1.5397
+[TRAIN] Batch 900/1130 | Loss=1.2276
+[TRAIN] Batch 1000/1130 | Loss=0.7918
+[TRAIN] Batch 1100/1130 | Loss=0.9969
+
+📊 Epoch 8/10 DONE
+Train Loss: 1.0481
+Train Acc : 61.93%
+Val Loss  : 0.9377
+Val Acc   : 67.33%
+--------------------------------------------------
+💾 Best model saved!
+
+🔥 ===== EPOCH 9/10 START =====
+[TRAIN] Batch 0/1130 | Loss=1.0703
+[TRAIN] Batch 100/1130 | Loss=0.8169
+[TRAIN] Batch 200/1130 | Loss=1.0492
+[TRAIN] Batch 300/1130 | Loss=1.2463
+[TRAIN] Batch 400/1130 | Loss=0.9259
+[TRAIN] Batch 500/1130 | Loss=1.3362
+[TRAIN] Batch 600/1130 | Loss=0.7413
+[TRAIN] Batch 700/1130 | Loss=1.2384
+[TRAIN] Batch 800/1130 | Loss=0.9967
+[TRAIN] Batch 900/1130 | Loss=1.1140
+[TRAIN] Batch 1000/1130 | Loss=0.9346
+[TRAIN] Batch 1100/1130 | Loss=0.8564
+
+📊 Epoch 9/10 DONE
+Train Loss: 1.0386
+Train Acc : 62.34%
+Val Loss  : 0.9280
+Val Acc   : 66.95%
+--------------------------------------------------
+
+🔥 ===== EPOCH 10/10 START =====
+[TRAIN] Batch 0/1130 | Loss=1.1293
+[TRAIN] Batch 100/1130 | Loss=0.9208
+[TRAIN] Batch 200/1130 | Loss=1.1307
+[TRAIN] Batch 300/1130 | Loss=1.3393
+[TRAIN] Batch 400/1130 | Loss=0.8205
+[TRAIN] Batch 500/1130 | Loss=0.8462
+[TRAIN] Batch 600/1130 | Loss=1.0053
+[TRAIN] Batch 700/1130 | Loss=1.1978
+[TRAIN] Batch 800/1130 | Loss=1.1281
+[TRAIN] Batch 900/1130 | Loss=1.1707
+[TRAIN] Batch 1000/1130 | Loss=1.0491
+[TRAIN] Batch 1100/1130 | Loss=1.5212
+
+📊 Epoch 10/10 DONE
+Train Loss: 1.0303
+Train Acc : 62.33%
+Val Loss  : 0.9278
+Val Acc   : 67.82%
+--------------------------------------------------
+💾 Best model saved!
+
+✅ TRAINING COMPLETED!
+🏆 Best Accuracy: 67.82%
