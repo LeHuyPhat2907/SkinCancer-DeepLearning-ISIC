@@ -1,0 +1,7 @@
+﻿Fold Iteration,Accuracy (%),Macro Precision (%),Macro Recall (%),Macro F1-Score (%)
+Fold 1,81.45,81.85,81.2,81.52
+Fold 2,81.12,81.4,80.85,81.12
+Fold 3,81.78,82.12,81.55,81.83
+Fold 4,80.95,81.1,80.6,80.85
+Fold 5,81.6,81.9,81.35,81.62
+AVERAGE (Trung bình),81.38 ± 0.31,81.67 ± 0.37,81.11 ± 0.34,81.39 ± 0.35

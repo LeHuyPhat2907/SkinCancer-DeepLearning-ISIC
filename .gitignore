@@ -1,0 +1,15 @@
+# Dữ liệu (Tuyệt đối không đẩy lên Git)
+data/
+datasets/
+data_processed/
+data_refined/
+*.zip
+
+# Python
+__pycache__/
+venv/
+.env
+
+# Trọng số mô hình (Nặng, không đẩy lên Git)
+*.pth
+*.h5

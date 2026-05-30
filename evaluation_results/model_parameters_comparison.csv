@@ -1,0 +1,5 @@
+﻿Mô hình,Tổng số tham số (Gốc),Số tham số huấn luyện,Kích thước tham số (M)
+Pure_EfficientNet-B0,"4,017,796","4,017,796",4.02 M
+Pure_ViT_Tiny,"5,525,960","5,525,960",5.53 M
+Pure_DeiT_Tiny,"5,527,888","5,527,888",5.53 M
+Hybrid_Model_Proposed,"17,612,262","17,612,262",17.61 M

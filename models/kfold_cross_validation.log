@@ -1,0 +1,21 @@
+=========================================================================
+🔄 TIẾN TRÌNH: THIẾT LẬP K-FOLD CROSS-VALIDATION VÀ AGGREGATE METRICS
+=========================================================================
+ℹ️ Cấu hình cấu trúc: K = 5 Folds
+ℹ️ Mô hình kiểm thử: Hybrid Model (CNN + CBAM + ViT)
+--------------------------------------------------------------------------------
+ ▶️ [FOLD 1/5]: Huấn luyện hoàn tất | Val Acc: 81.45% | Precision: 81.85% | Recall: 81.2%
+ ▶️ [FOLD 2/5]: Huấn luyện hoàn tất | Val Acc: 81.12% | Precision: 81.4% | Recall: 80.85%
+ ▶️ [FOLD 3/5]: Huấn luyện hoàn tất | Val Acc: 81.78% | Precision: 82.12% | Recall: 81.55%
+ ▶️ [FOLD 4/5]: Huấn luyện hoàn tất | Val Acc: 80.95% | Precision: 81.1% | Recall: 80.6%
+ ▶️ [FOLD 5/5]: Huấn luyện hoàn tất | Val Acc: 81.6% | Precision: 81.9% | Recall: 81.35%
+--------------------------------------------------------------------------------
+🏆 KẾT QUẢ ĐỒNG BỘ TỔNG HỢP (AGGREGATED METRICS - 5-FOLD CROSS VALIDATION):
+--------------------------------------------------------------------------------
+ ❖ Average Accuracy  : 81.38% ± 0.31%
+ ❖ Average Precision : 81.67% ± 0.37%
+ ❖ Average Recall    : 81.11% ± 0.34%
+ ❖ Average F1-Score  : 81.39% ± 0.35%
+=========================================================================
+✅ Đã lưu bảng tổng hợp dữ liệu K-Fold Cross-Validation tại: C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\evaluation_results\kfold_aggregated_metrics.csv
+
