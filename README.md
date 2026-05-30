@@ -29,6 +29,8 @@ Dataset: ISIC 2024 (Skin Lesion Analysis) - ~51k images.
 #############################################################
 Link: Dataset: https://drive.google.com/drive/folders/1s2-MRwm4CM1GmB-KpIQRvzUiIzBUnSRI?usp=sharing
 
+Link Toàn bộ mô hình đã Train: https://drive.google.com/drive/folders/14ktidAxIjNGVkswyBz7ntkK-ytiyA2NZ?usp=sharing
+
 
 
 
