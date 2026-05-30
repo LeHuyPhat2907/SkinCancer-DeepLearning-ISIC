@@ -17,7 +17,7 @@ from train_baseline import SkinDataset
 # 0. HỆ THỐNG TỰ ĐỘNG GHI LOG TERMINAL (LƯU TEXT LOG CHO EFFICIENTNET)
 # =========================================================================
 class EfficientNetLogger(object):
-    def __init__(self, filename="D:\\SkinCancer_AI_ISIC\\models\\training_pure_efficientnet.log"):
+    def __init__(self, filename="C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_efficientnet.log"):
         self.terminal = sys.stdout
         self.log = open(filename, "w", encoding="utf-8")
         
@@ -30,19 +30,19 @@ class EfficientNetLogger(object):
         pass
 
 # Tự động khởi tạo thư mục lưu trữ mô hình nếu chưa tồn tại
-os.makedirs(r"D:\SkinCancer_AI_ISIC\models", exist_ok=True)
+os.makedirs(r"C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models", exist_ok=True)
 sys.stdout = EfficientNetLogger() # Kích hoạt bộ ghi log bắt trọn mọi thông tin terminal
 
 # =========================================================================
 # 1. CẤU HÌNH ĐƯỜNG DẪN VÀ SIÊU THAM SỐ ĐỒNG BỘ THỰC NGHIỆM
 # =========================================================================
-DATA_DIR = r'D:\SkinCancer_AI_ISIC\data\final_cleaned'
-TRAIN_CSV = r'D:\SkinCancer_AI_ISIC\data\train.csv'
-VAL_CSV = r'D:\SkinCancer_AI_ISIC\data\val.csv'
-MODEL_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\best_pure_efficientnet.pth'
-PLOT_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\efficientnet_pure_learning_curves.png'
+DATA_DIR = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\final_cleaned'
+TRAIN_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\train.csv'
+VAL_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\val.csv'
+MODEL_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\best_pure_efficientnet.pth'
+PLOT_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\efficientnet_pure_learning_curves.png'
 
-BATCH_SIZE = 64  # Đồng bộ tham số để đảm bảo tính thực nghiệm công bằng với các mạng khác
+BATCH_SIZE = 128  # Đồng bộ tham số để đảm bảo tính thực nghiệm công bằng với các mạng khác
 EPOCHS = 20      
 LR = 5e-5        # Học suất tối ưu cho Fine-tuning nhằm tránh phá vỡ trọng số pre-trained
 
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
     print("\n=========================================================================")
     print("✅ TIẾN TRÌNH HUẤN LUYỆN MÔ HÌNH PURE EFFICIENTNET ĐÃ HOÀN TẤT TRỌN VẸN!")
-    print(f"📁 Nhật ký nhật trình log văn bản lưu tại: D:\\SkinCancer_AI_ISIC\\models\\training_pure_efficientnet.log")
+    print(f"📁 Nhật ký nhật trình log văn bản lưu tại: C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_efficientnet.log")
     print(f"📁 Hình ảnh đồ thị kiểm soát lưu tại: {PLOT_SAVE_PATH}")
     print(f"📁 File trọng số tối ưu lưu tại: {MODEL_SAVE_PATH}")
     print("=========================================================================\n")

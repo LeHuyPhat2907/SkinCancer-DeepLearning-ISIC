@@ -18,7 +18,7 @@ from train_baseline import SkinDataset
 # 0. HỆ THỐNG TỰ ĐỘNG GHI LOG TERMINAL (LƯU TEXT LOG CHO PURE VIT)
 # =========================================================================
 class PureViTLogger(object):
-    def __init__(self, filename="D:\\SkinCancer_AI_ISIC\\models\\training_pure_vit.log"):
+    def __init__(self, filename="C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_vit.log"):
         self.terminal = sys.stdout
         self.log = open(filename, "w", encoding="utf-8")
         
@@ -31,19 +31,19 @@ class PureViTLogger(object):
         pass
 
 # Tự động khởi tạo thư mục lưu trữ nếu chưa có
-os.makedirs(r"D:\SkinCancer_AI_ISIC\models", exist_ok=True)
+os.makedirs(r"C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models", exist_ok=True)
 sys.stdout = PureViTLogger() # Kích hoạt Logger ghi đè toàn bộ tiến trình
 
 # =========================================================================
 # 1. CẤU HÌNH ĐƯỜNG DẪN VÀ SIÊU THAM SỐ ĐỒNG BỘ
 # =========================================================================
-DATA_DIR = r'D:\SkinCancer_AI_ISIC\data\final_cleaned'
-TRAIN_CSV = r'D:\SkinCancer_AI_ISIC\data\train.csv'
-VAL_CSV = r'D:\SkinCancer_AI_ISIC\data\val.csv'
-MODEL_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\best_pure_vit.pth'
-PLOT_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\pure_vit_learning_curves.png'
+DATA_DIR = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\final_cleaned'
+TRAIN_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\train.csv'
+VAL_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\val.csv'
+MODEL_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\best_pure_vit.pth'
+PLOT_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\pure_vit_learning_curves.png'
 
-BATCH_SIZE = 64  # Giữ nguyên để đảm bảo tính công bằng khi đối sánh thực nghiệm
+BATCH_SIZE = 128  # Giữ nguyên để đảm bảo tính công bằng khi đối sánh thực nghiệm
 EPOCHS = 20      
 LR = 5e-5        # Giữ nguyên mức LR tối ưu cho các họ mạng Attention nhằm tránh nổ gradient
 
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
     print("\n=========================================================================")
     print("✅ TIẾN TRÌNH HUẤN LUYỆN MÔ HÌNH PURE ViT ĐÃ HOÀN TẤT TRỌN VẸN!")
-    print(f"📁 Nhật ký log văn bản lưu tại: D:\\SkinCancer_AI_ISIC\\models\\training_pure_vit.log")
+    print(f"📁 Nhật ký log văn bản lưu tại: C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_vit.log")
     print(f"📁 Hình ảnh đồ thị kiểm soát lưu tại: {PLOT_SAVE_PATH}")
     print(f"📁 Trọng số tối ưu lưu tại: {MODEL_SAVE_PATH}")
     print("=========================================================================\n")

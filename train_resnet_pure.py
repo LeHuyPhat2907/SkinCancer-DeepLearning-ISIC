@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 # Import lại class SkinDataset từ file gốc của bạn (Đảm bảo file train_final.py nằm cùng thư mục)
 try:
-    from train_final import SkinDataset
+    from train_baseline import SkinDataset
 except ImportError:
     from train_baseline import SkinDataset
 
@@ -20,7 +20,7 @@ except ImportError:
 # 0. HỆ THỐNG TỰ ĐỘNG GHI LOG TERMINAL (LƯU TEXT LOG CHO RESNET50)
 # =========================================================================
 class ResNetLogger(object):
-    def __init__(self, filename="D:\\SkinCancer_AI_ISIC\\models\\training_pure_resnet50.log"):
+    def __init__(self, filename="C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_resnet50.log"):
         self.terminal = sys.stdout
         self.log = open(filename, "w", encoding="utf-8")
         
@@ -33,17 +33,17 @@ class ResNetLogger(object):
         pass
 
 # Tự động tạo thư mục lưu trữ nếu chưa tồn tại
-os.makedirs(r"D:\SkinCancer_AI_ISIC\models", exist_ok=True)
+os.makedirs(r"C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models", exist_ok=True)
 sys.stdout = ResNetLogger() # Kích hoạt Logger bắt trọn mọi thông tin từ terminal
 
 # =========================================================================
 # 1. CẤU HÌNH ĐƯỜNG DẪN VÀ SIÊU THAM SỐ ĐỒNG BỘ THỰC NGHIỆM
 # =========================================================================
-DATA_DIR = r'D:\SkinCancer_AI_ISIC\data\final_cleaned'
-TRAIN_CSV = r'D:\SkinCancer_AI_ISIC\data\train.csv'
-VAL_CSV = r'D:\SkinCancer_AI_ISIC\data\val.csv'
-MODEL_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\best_resnet50.pth'
-PLOT_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\resnet50_pure_learning_curves.png'
+DATA_DIR = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\final_cleaned'
+TRAIN_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\train.csv'
+VAL_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\val.csv'
+MODEL_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\best_resnet50.pth'
+PLOT_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\resnet50_pure_learning_curves.png'
 
 BATCH_SIZE = 64  # Giữ nguyên để so sánh công bằng hiệu năng thực nghiệm giữa các kiến trúc
 EPOCHS = 20      
@@ -194,7 +194,7 @@ if __name__ == "__main__":
 
     print("\n=========================================================================")
     print("✅ TIẾN TRÌNH HUẤN LUYỆN MÔ HÌNH RESNET50 ĐÃ HOÀN TẤT TRỌN VẸN!")
-    print(f"📁 Nhật ký log văn bản lưu tại: D:\\SkinCancer_AI_ISIC\\models\\training_pure_resnet50.log")
+    print(f"📁 Nhật ký log văn bản lưu tại: C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_resnet50.log")
     print(f"📁 Hình ảnh đồ thị kiểm soát lưu tại: {PLOT_SAVE_PATH}")
     print(f"📁 File trọng số tối ưu lưu tại: {MODEL_SAVE_PATH}")
     print("=========================================================================\n")

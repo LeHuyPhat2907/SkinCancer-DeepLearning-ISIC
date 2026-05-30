@@ -7,15 +7,15 @@ from tqdm import tqdm
 import os
 
 # Import lại class SkinDataset từ file hôm qua của bạn
-from train_final import SkinDataset 
+from train_baseline import SkinDataset 
 
 # ==========================================
 # 1. CẤU HÌNH ĐƯỜNG DẪN
 # ==========================================
-DATA_DIR = r'D:\SkinCancer_AI_ISIC\data\final_cleaned'
-TRAIN_CSV = r'D:\SkinCancer_AI_ISIC\data\train.csv'
-VAL_CSV = r'D:\SkinCancer_AI_ISIC\data\val.csv'
-SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\best_resnet50.pth'
+DATA_DIR = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\final_cleaned'
+TRAIN_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\train.csv'
+VAL_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\val.csv'
+SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\best_resnet50.pth'
 
 BATCH_SIZE = 64
 EPOCHS = 20 # ResNet50 hội tụ rất nhanh, 20 epoch là đủ thấy sự khác biệt

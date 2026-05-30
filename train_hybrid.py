@@ -15,7 +15,7 @@ from tqdm import tqdm
 # 0. HỆ THỐNG TỰ ĐỘNG GHI LOG TERMINAL (LƯU TEXT LOG TOÀN BỘ TIẾN TRÌNH)
 # =========================================================================
 class Logger(object):
-    def __init__(self, filename="D:\\SkinCancer_AI_ISIC\\models\\training_hybrid.log"):
+    def __init__(self, filename="C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_hybrid.log"):
         self.terminal = sys.stdout
         self.log = open(filename, "w", encoding="utf-8")
         
@@ -28,7 +28,7 @@ class Logger(object):
         pass
 
 # Tạo thư mục lưu trữ mô hình và log nếu chưa tồn tại
-os.makedirs(r"D:\SkinCancer_AI_ISIC\models", exist_ok=True)
+os.makedirs(r"C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models", exist_ok=True)
 sys.stdout = Logger() # Bắt đầu ghi toàn bộ những gì print ra terminal vào file log
 
 # =========================================================================
@@ -176,13 +176,13 @@ class HybridSkinModel(nn.Module):
 # 4. CHƯƠNG TRÌNH HUẤN LUYỆN CHÍNH (TRAINING LOOP & LIVE PLOTTING)
 # =========================================================================
 # Cấu hình các đường dẫn tuyệt đối đồng bộ dữ liệu trên ổ đĩa của bạn
-DATA_DIR = r'D:\SkinCancer_AI_ISIC\data\final_cleaned'
-TRAIN_CSV = r'D:\SkinCancer_AI_ISIC\data\train.csv'
-VAL_CSV = r'D:\SkinCancer_AI_ISIC\data\val.csv'
-MODEL_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\best_hybrid_model.pth'
-PLOT_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\hybrid_learning_curves.png'
+DATA_DIR = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\final_cleaned'
+TRAIN_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\train.csv'
+VAL_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\val.csv'
+MODEL_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\best_hybrid_model.pth'
+PLOT_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\hybrid_learning_curves.png'
 
-BATCH_SIZE = 64
+BATCH_SIZE = 128
 EPOCHS = 30
 LR = 5e-5 # Learning rate nhỏ, tối ưu cho kiến trúc Transformer tránh nổ đạo hàm
 
@@ -210,8 +210,8 @@ if __name__ == "__main__":
     ])
 
     # Khởi tạo DataLoader đọc luồng dữ liệu song song từ ổ cứng
-    train_loader = DataLoader(SkinDataset(TRAIN_CSV, DATA_DIR, transform_train), batch_size=BATCH_SIZE, shuffle=True, num_workers=4)
-    val_loader = DataLoader(SkinDataset(VAL_CSV, DATA_DIR, transform_val), batch_size=BATCH_SIZE, shuffle=False, num_workers=4)
+    train_loader = DataLoader(SkinDataset(TRAIN_CSV, DATA_DIR, transform_train), batch_size=BATCH_SIZE, shuffle=True, num_workers=4, pin_memory=True)
+    val_loader = DataLoader(SkinDataset(VAL_CSV, DATA_DIR, transform_val), batch_size=BATCH_SIZE, shuffle=False, num_workers=4, pin_memory=True)
 
     # Khởi tạo mô hình mạng lai 3 thành phần
     model = HybridSkinModel(num_classes=8).to(device)
@@ -320,7 +320,7 @@ if __name__ == "__main__":
 
     print("\n=========================================================================")
     print("✅ QUÁ TRÌNH HUẤN LUYỆN MẠNG LAI ĐÃ HOÀN THÀNH XUẤT SẮC!")
-    print(f"📁 Log văn bản chi tiết lưu tại: D:\\SkinCancer_AI_ISIC\\models\\training_hybrid.log")
+    print(f"📁 Log văn bản chi tiết lưu tại: C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_hybrid.log")
     print(f"📁 Đồ thị tiến trình huấn luyện cập nhật tại: {PLOT_SAVE_PATH}")
     print(f"📁 File trọng số tối ưu nhất lưu tại: {MODEL_SAVE_PATH}")
     print("=========================================================================")

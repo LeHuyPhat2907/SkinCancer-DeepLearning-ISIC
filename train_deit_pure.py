@@ -18,7 +18,7 @@ from train_baseline import SkinDataset
 # 0. HỆ THỐNG TỰ ĐỘNG GHI LOG TERMINAL (LƯU TEXT LOG CHO PURE DEIT)
 # =========================================================================
 class PureDeiTLogger(object):
-    def __init__(self, filename="D:\\SkinCancer_AI_ISIC\\models\\training_pure_deit.log"):
+    def __init__(self, filename="C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_deit.log"):
         self.terminal = sys.stdout
         self.log = open(filename, "w", encoding="utf-8")
         
@@ -31,19 +31,19 @@ class PureDeiTLogger(object):
         pass
 
 # Tạo thư mục lưu trữ nếu chưa tồn tại
-os.makedirs(r"D:\SkinCancer_AI_ISIC\models", exist_ok=True)
+os.makedirs(r"C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models", exist_ok=True)
 sys.stdout = PureDeiTLogger() # Kích hoạt Logger cho phân đoạn này
 
 # =========================================================================
 # 1. CẤU HÌNH ĐƯỜNG DẪN VÀ SIÊU THAM SỐ
 # =========================================================================
-DATA_DIR = r'D:\SkinCancer_AI_ISIC\data\final_cleaned'
-TRAIN_CSV = r'D:\SkinCancer_AI_ISIC\data\train.csv'
-VAL_CSV = r'D:\SkinCancer_AI_ISIC\data\val.csv'
-MODEL_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\best_pure_deit.pth'
-PLOT_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\pure_deit_learning_curves.png'
+DATA_DIR = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\final_cleaned'
+TRAIN_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\train.csv'
+VAL_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\val.csv'
+MODEL_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\best_pure_deit.pth'
+PLOT_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\pure_deit_learning_curves.png'
 
-BATCH_SIZE = 64  # Giữ nguyên cấu hình để so sánh công bằng với các mạng khác
+BATCH_SIZE = 128  # Giữ nguyên cấu hình để so sánh công bằng với các mạng khác
 EPOCHS = 20      # Mạng pre-trained Transformer thường hội tụ tốt trong 20 epoch
 LR = 5e-5        # Học lẹ hơn dễ khiến kiến trúc Attention bị bất ổn định (nổ loss)
 
@@ -175,6 +175,6 @@ if __name__ == "__main__":
 
     print("\n=========================================================================")
     print("✅ HOÀN THÀNH QUÁ TRÌNH HUẤN LUYỆN PURE DEI T!")
-    print(f"📁 Log text lưu tại: D:\\SkinCancer_AI_ISIC\\models\\training_pure_deit.log")
+    print(f"📁 Log text lưu tại: C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_deit.log")
     print(f"📁 Đồ thị tiến trình lưu tại: {PLOT_SAVE_PATH}")
     print("=========================================================================\n")

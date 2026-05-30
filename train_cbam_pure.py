@@ -17,7 +17,7 @@ from train_baseline import SkinDataset
 # 0. HỆ THỐNG TỰ ĐỘNG GHI LOG TERMINAL (LƯU TEXT LOG CHO MÔ HÌNH CBAM)
 # =========================================================================
 class CBAMLogger(object):
-    def __init__(self, filename="D:\\SkinCancer_AI_ISIC\\models\\training_pure_cbam.log"):
+    def __init__(self, filename="C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_cbam.log"):
         self.terminal = sys.stdout
         self.log = open(filename, "w", encoding="utf-8")
         
@@ -30,7 +30,7 @@ class CBAMLogger(object):
         pass
 
 # Tự động tạo thư mục lưu trữ nếu chưa tồn tại
-os.makedirs(r"D:\SkinCancer_AI_ISIC\models", exist_ok=True)
+os.makedirs(r"C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models", exist_ok=True)
 sys.stdout = CBAMLogger() # Kích hoạt Logger bắt trọn mọi thông tin hiển thị
 
 # =========================================================================
@@ -110,13 +110,13 @@ class EfficientNetCBAMModel(nn.Module):
 # =========================================================================
 # 3. TIẾN TRÌNH HUẤN LUYỆN CHÍNH (TRAINING & LIVE PLOTTING)
 # =========================================================================
-DATA_DIR = r'D:\SkinCancer_AI_ISIC\data\final_cleaned'
-TRAIN_CSV = r'D:\SkinCancer_AI_ISIC\data\train.csv'
-VAL_CSV = r'D:\SkinCancer_AI_ISIC\data\val.csv'
-MODEL_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\best_efficientnet_cbam.pth'
-PLOT_SAVE_PATH = r'D:\SkinCancer_AI_ISIC\models\cbam_pure_learning_curves.png'
+DATA_DIR = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\final_cleaned'
+TRAIN_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\train.csv'
+VAL_CSV = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\data\val.csv'
+MODEL_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\best_efficientnet_cbam.pth'
+PLOT_SAVE_PATH = r'C:\Users\HUYPHAT_PC\Documents\AI\SkinCancer-DeepLearning-ISIC\models\cbam_pure_learning_curves.png'
 
-BATCH_SIZE = 64  # Đồng bộ tham số để đảm bảo tính thực nghiệm công bằng
+BATCH_SIZE = 128  # Đồng bộ tham số để đảm bảo tính thực nghiệm công bằng
 EPOCHS = 20      
 LR = 5e-5        
 
@@ -250,7 +250,7 @@ if __name__ == "__main__":
 
     print("\n=========================================================================")
     print("✅ TIẾN TRÌNH HUẤN LUYỆN MÔ HÌNH CNN + CBAM MODULE HOÀN THÀNH XUẤT SẮC!")
-    print(f"📁 Nhật ký log văn bản lưu tại: D:\\SkinCancer_AI_ISIC\\models\\training_pure_cbam.log")
+    print(f"📁 Nhật ký log văn bản lưu tại: C:\\Users\\HUYPHAT_PC\\Documents\\AI\\SkinCancer-DeepLearning-ISIC\\models\\training_pure_cbam.log")
     print(f"📁 Hình ảnh đồ thị kiểm soát lưu tại: {PLOT_SAVE_PATH}")
     print(f"📁 File trọng số tối ưu lưu tại: {MODEL_SAVE_PATH}")
     print("=========================================================================\n")
